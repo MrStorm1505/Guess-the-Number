@@ -1,0 +1,158 @@
+<mxfile host="65bd71144e">
+    <diagram id="kJCQi7QWv4U1ag-psADG" name="Page-1">
+        <mxGraphModel dx="826" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="2" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="364.5" y="5" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="End" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+                    <mxGeometry x="364.5" y="1015" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=none;html=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="4" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Print&amp;nbsp;&lt;span style=&quot;color: rgb(206, 145, 120); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&quot;Welcome to Guess the Number!&quot;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+                    <mxGeometry x="304.5" y="95" width="240" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="edgeStyle=none;html=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="10" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Define secretNumber as a Random number between 1-100" style="whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+                    <mxGeometry x="319.25" y="185" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="12" target="34">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Print&amp;nbsp;&lt;span style=&quot;color: rgb(206, 145, 120); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&quot;I'm thinking in a number between 1 and 100&quot;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+                    <mxGeometry x="290.5" y="255" width="270" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="edgeStyle=none;html=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="14" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Print&amp;nbsp;&lt;span style=&quot;color: rgb(206, 145, 120); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&quot;Enter your guess: &quot;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+                    <mxGeometry x="290.5" y="530" width="260" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="16">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="424.2500000000002" y="665" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="Read&amp;nbsp;&lt;span style=&quot;color: rgb(156, 220, 254); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;guess&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+                    <mxGeometry x="353" y="595" width="135" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="False" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="18" target="24">
+                    <mxGeometry x="-0.1892" relative="1" as="geometry">
+                        <mxPoint x="242.75" y="785" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="249.75" y="715"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="True" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="18" target="23">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="602.75" y="785" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; color: rgb(156, 220, 254);&quot;&gt;guess&lt;/span&gt;&lt;span style=&quot;background-color: rgb(31, 31, 31); color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; color: rgb(212, 212, 212);&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(31, 31, 31); color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; color: rgb(156, 220, 254);&quot;&gt;secretNumber&lt;/span&gt;?" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+                    <mxGeometry x="332.25" y="655" width="179.5" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="23" target="40">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Print&amp;nbsp;&lt;span style=&quot;color: rgb(206, 145, 120); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&quot;Too high!&quot;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+                    <mxGeometry x="612.75" y="685" width="190" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="False" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="24" target="27">
+                    <mxGeometry x="0.0069" y="-4" relative="1" as="geometry">
+                        <mxPoint x="125" y="825" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="True" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="24" target="28">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="365" y="825" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="305" y="845"/>
+                            <mxPoint x="427" y="845"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; color: rgb(156, 220, 254);&quot;&gt;guess&lt;/span&gt;&lt;span style=&quot;background-color: rgb(31, 31, 31); color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; color: rgb(212, 212, 212);&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(31, 31, 31); color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; color: rgb(156, 220, 254);&quot;&gt;secretNumber&lt;/span&gt;?" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="755" width="220" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="27" target="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="148" y="995"/>
+                            <mxPoint x="424.5" y="995"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="Print&amp;nbsp;&lt;span style=&quot;color: rgb(206, 145, 120); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&quot;That's right! You Won! 🏆&quot;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+                    <mxGeometry x="45" y="885" width="205" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="28" target="40">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="780" y="535" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="830" y="940"/>
+                            <mxPoint x="830" y="480"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="Print&amp;nbsp;&lt;span style=&quot;color: rgb(206, 145, 120); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&quot;Too low...&quot;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+                    <mxGeometry x="341.75" y="905" width="170" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="edgeStyle=none;html=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="34" target="36">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Define&amp;nbsp;&lt;span style=&quot;color: rgb(156, 220, 254); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;i&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;as 0&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="325" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="True" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="36" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="False" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="36" target="45">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="160" y="475" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="160" y="445"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="&lt;span style=&quot;color: rgb(156, 220, 254); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;i&amp;nbsp;&lt;/span&gt;&amp;lt; 5 ?" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="382" y="405" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="40" target="36">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="620" y="480"/>
+                            <mxPoint x="620" y="405"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="&lt;br&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;i++&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+                    <mxGeometry x="647.75" y="455" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="45" target="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="20" y="935" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="20" y="565"/>
+                            <mxPoint x="20" y="1055"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="Print&amp;nbsp;&lt;span style=&quot;color: rgb(206, 145, 120); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&quot;Game Over&quot;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="535" width="160" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
